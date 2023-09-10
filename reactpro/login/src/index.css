@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #dde5f4;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 500px;
+  margin: 200px auto;
+  padding: 20px 0;
+  color: #000000;
+  text-align: center;
+}
+
+.loginbox {
+  background-color: #f8f8f8;
+  padding: 2em;
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 0 2em #e6e9f9;
+  gap: 2em;
+  width: fit-content;
+}
+
+.container h1 {
+  font-size: 32px;
+  font-weight: 500;
+  
+}
+
+form {
+  padding: 20px 0;
+  position: relative;
+}
+
+form label {
+  color: #4d4d4d;
+  text-align: left;
+}
+.container .field {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-bottom: 30px;
+}
+form input {
+  width: 450px;
+  padding: 10px 15px;
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  border: none;
+}
+
+form button {
+  padding: 10px;
+  background: #3e4684;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  padding: 20px 50px;
+  width: 300px;
+}
+::placeholder {
+  color: #bebebe;
+  opacity: 1; /* Firefox */
+}
